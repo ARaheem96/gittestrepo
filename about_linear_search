@@ -1,0 +1,13 @@
+Find Max Number in an Array
+int []arr = {2,1,4,5,63,47,89};
+
+int max = Integer.MIN_VALUE;
+
+for(int i = 0;i<arr.length;i++)
+{
+if(arr[i] > max){
+max = arr[i];
+}
+}
+
+complexity would be O(n);
