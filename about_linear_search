@@ -10,4 +10,4 @@ max = arr[i];
 }
 }
 
-complexity would be O(n);
+Time complexity would be O(n);
